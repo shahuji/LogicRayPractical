@@ -20,3 +20,8 @@ admin.site.register(User)
 admin.site.register(Product)
 admin.site.register(Order, OrderAdmin)
 # admin.site.register(OrderList)
+
+# ...
+admin.site.site_header = "LogicRay Admin Practical"
+admin.site.site_title = "Practical"
+admin.site.index_title = "Interview Exam"
